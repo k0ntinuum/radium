@@ -26,6 +26,7 @@ function encode(p,q)
     end
     c
 end
+
 function demoencode(p,q, F)
     k = copy(q)
     n = size(k)[begin]
